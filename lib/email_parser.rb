@@ -4,7 +4,7 @@
 # or whitespace (' ').
 class EmailAddressParser
   
-  attr_accessor 
+  attr_accessor :emails
   
   def 
   end
