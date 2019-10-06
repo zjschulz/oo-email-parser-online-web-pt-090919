@@ -11,7 +11,8 @@ class EmailAddressParser
   end
   
   def parse
-    @emails.delete
+    x = @emails.delete ","
+    x.split
   end
   
 end
